@@ -55,8 +55,8 @@
 		01C620FE19D096ED000702DB /* Pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pipe1.png; sourceTree = "<group>"; };
 		01C620FF19D096ED000702DB /* Pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pipe2.png; sourceTree = "<group>"; };
 		01C6210019D096ED000702DB /* Skyline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skyline.png; sourceTree = "<group>"; };
-		01DADD8E1B2EDF5D0075A540 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image1.png; path = ../../../../../../../Desktop/image1.png; sourceTree = "<group>"; };
-		01DADD901B2EDF750075A540 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image2.png; path = ../../../../../../../Desktop/image2.png; sourceTree = "<group>"; };
+		01DADD8E1B2EDF5D0075A540 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image1.png; path = ../../../../../../Desktop/image1.png; sourceTree = "<group>"; };
+		01DADD901B2EDF750075A540 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image2.png; path = ../../../../../../Desktop/image2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01A9F0BD1B2EE15B007252EA /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				01DADD8E1B2EDF5D0075A540 /* image1.png */,
+				01DADD901B2EDF750075A540 /* image2.png */,
+			);
+			name = ScreenShots;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		01C620C419D0960E000702DB = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +116,7 @@
 				01C620DD19D0960E000702DB /* GameViewController.m */,
 				01C620DF19D0960E000702DB /* Main.storyboard */,
 				01C620E419D0960E000702DB /* LaunchScreen.xib */,
+				01A9F0BD1B2EE15B007252EA /* ScreenShots */,
 				01C620D019D0960E000702DB /* Supporting Files */,
 			);
 			path = FlappyBird;
@@ -114,8 +125,6 @@
 		01C620D019D0960E000702DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				01DADD8E1B2EDF5D0075A540 /* image1.png */,
-				01DADD901B2EDF750075A540 /* image2.png */,
 				01C620FB19D096ED000702DB /* Bird1.png */,
 				01C620FC19D096ED000702DB /* Bird2.png */,
 				01C620FD19D096ED000702DB /* Ground.png */,
@@ -331,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -366,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
