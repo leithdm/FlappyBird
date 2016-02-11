@@ -20,8 +20,6 @@
 		01C6210419D096ED000702DB /* Pipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C620FE19D096ED000702DB /* Pipe1.png */; };
 		01C6210519D096ED000702DB /* Pipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C620FF19D096ED000702DB /* Pipe2.png */; };
 		01C6210619D096ED000702DB /* Skyline.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C6210019D096ED000702DB /* Skyline.png */; };
-		01DADD8F1B2EDF5D0075A540 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01DADD8E1B2EDF5D0075A540 /* image1.png */; };
-		01DADD911B2EDF750075A540 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 01DADD901B2EDF750075A540 /* image2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +53,6 @@
 		01C620FE19D096ED000702DB /* Pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pipe1.png; sourceTree = "<group>"; };
 		01C620FF19D096ED000702DB /* Pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pipe2.png; sourceTree = "<group>"; };
 		01C6210019D096ED000702DB /* Skyline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skyline.png; sourceTree = "<group>"; };
-		01DADD8E1B2EDF5D0075A540 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image1.png; path = ../../../../../../Desktop/image1.png; sourceTree = "<group>"; };
-		01DADD901B2EDF750075A540 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image2.png; path = ../../../../../../Desktop/image2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,16 +73,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01A9F0BD1B2EE15B007252EA /* ScreenShots */ = {
-			isa = PBXGroup;
-			children = (
-				01DADD8E1B2EDF5D0075A540 /* image1.png */,
-				01DADD901B2EDF750075A540 /* image2.png */,
-			);
-			name = ScreenShots;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		01C620C419D0960E000702DB = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +102,6 @@
 				01C620DD19D0960E000702DB /* GameViewController.m */,
 				01C620DF19D0960E000702DB /* Main.storyboard */,
 				01C620E419D0960E000702DB /* LaunchScreen.xib */,
-				01A9F0BD1B2EE15B007252EA /* ScreenShots */,
 				01C620D019D0960E000702DB /* Supporting Files */,
 			);
 			path = FlappyBird;
@@ -198,7 +183,7 @@
 		01C620C519D0960E000702DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "DARREN LEITH";
 				TargetAttributes = {
 					01C620CC19D0960E000702DB = {
@@ -237,10 +222,8 @@
 				01C620E619D0960E000702DB /* LaunchScreen.xib in Resources */,
 				01C6210619D096ED000702DB /* Skyline.png in Resources */,
 				01C6210419D096ED000702DB /* Pipe1.png in Resources */,
-				01DADD8F1B2EDF5D0075A540 /* image1.png in Resources */,
 				01C6210219D096ED000702DB /* Bird2.png in Resources */,
 				01C6210519D096ED000702DB /* Pipe2.png in Resources */,
-				01DADD911B2EDF750075A540 /* image2.png in Resources */,
 				01C6210119D096ED000702DB /* Bird1.png in Resources */,
 				01C6210319D096ED000702DB /* Ground.png in Resources */,
 				01C620E119D0960E000702DB /* Main.storyboard in Resources */,
@@ -326,6 +309,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -389,6 +373,7 @@
 				INFOPLIST_FILE = FlappyBird/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.DARRENMARTINLEITH.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -400,6 +385,7 @@
 				INFOPLIST_FILE = FlappyBird/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.DARRENMARTINLEITH.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -418,6 +404,7 @@
 				);
 				INFOPLIST_FILE = FlappyBirdTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.DARRENMARTINLEITH.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyBird.app/FlappyBird";
 			};
@@ -433,6 +420,7 @@
 				);
 				INFOPLIST_FILE = FlappyBirdTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.DARRENMARTINLEITH.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyBird.app/FlappyBird";
 			};
