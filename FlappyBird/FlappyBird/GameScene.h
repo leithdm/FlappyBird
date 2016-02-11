@@ -2,7 +2,6 @@
 //  GameScene.h
 //  FlappyBird
 //
-
 //  Copyright (c) 2014 DARREN LEITH. All rights reserved.
 //
 
