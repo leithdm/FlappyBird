@@ -1,8 +1,7 @@
 # FlappyBird-iOS
 
-Life wouldn't be complete without an obligatory Flappy Bird spin-off. 
+##Life wouldn't be complete without an obligatory Flappy Bird spin-off. 
 
-Acknowledgement to the hundreds of tutorials out there. 
+[![Flappy Bird](https://j.gifs.com/mZyrpr.gif)](https://youtu.be/3Wkn0XOA_DI)
 
-![alt tag](https://github.com/leithdm/FlappyBird-iOS/blob/master/FlappyBird/FlappyBirdTests/IMG_9304.PNG)
-![alt tag](https://github.com/leithdm/FlappyBird-iOS/blob/master/FlappyBird/FlappyBirdTests/IMG_9303.PNG)
+
